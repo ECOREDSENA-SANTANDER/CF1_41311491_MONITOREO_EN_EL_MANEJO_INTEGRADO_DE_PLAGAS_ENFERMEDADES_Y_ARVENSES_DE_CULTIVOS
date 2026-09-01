@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Cuestionario sobre planeación del monitoreo de variables productivas para el manejo integrado de plagas, enfermedades y arvenses',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar los conocimientos adquiridos por el aprendiz sobre los fundamentos del monitoreo agrícola, la identificación y caracterización de las variables productivas del cultivo, la interpretación de los umbrales de daño, el uso de tecnologías y recursos para el monitoreo, así como la planeación de las actividades de monitoreo mediante metodologías y criterios técnicos que apoyen el manejo integrado de plagas, enfermedades y arvenses.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,477 +30,693 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el propósito principal del monitoreo agrícola dentro del manejo integrado de plagas, enfermedades y arvenses?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Aplicar plaguicidas de forma periódica.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Obtener información confiable para apoyar la toma de decisiones técnicas.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Incrementar el número de aplicaciones de fertilizantes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Realizar únicamente inspecciones visuales del cultivo.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
+
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál de los siguientes principios establece que el monitoreo debe realizarse siguiendo una metodología previamente definida?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Objetividad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Representatividad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Sistematicidad.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Oportunidad.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
+
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Cuál de las siguientes corresponde a una variable productiva del cultivo?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Color del tractor.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+              texto: 'Rendimiento del cultivo por hectárea.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Precio del combustible.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Capacidad del almacén.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
+
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué permite identificar el monitoreo de las variables productivas?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'El costo del cultivo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'El valor comercial de la cosecha.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'El rendimiento financiero de la empresa.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto:
+                'Los factores que limitan la producción y afectan la sanidad del cultivo.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
+
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Cuál es la finalidad de establecer un umbral de daño económico?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'Determinar cuándo es necesario intervenir para evitar pérdidas económicas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Calcular el costo del fertilizante.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Medir la producción del cultivo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Clasificar los suelos agrícolas.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
+
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál de los siguientes factores influye en la determinación de un umbral de daño?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Color del uniforme del operario.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Especie y variedad del cultivo.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Marca del vehículo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Número de trabajadores disponibles.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
+
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál es una variable climática de interés para el monitoreo agrícola?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto: 'Temperatura del aire.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Precio de los insumos.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Cantidad de maquinaria.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Distancia a la ciudad.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
+
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Cuál de los siguientes corresponde a una variable edáfica?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Dirección del viento.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Humedad del suelo.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Radiación solar.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Nubosidad.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
+
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: 'La fenología estudia principalmente:',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Los microorganismos del suelo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Las características del clima.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Los equipos de monitoreo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Las etapas de desarrollo del cultivo.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
+
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué relación existe entre las variables productivas y la sanidad del cultivo?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'No existe ninguna relación.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Permiten comprender los factores que favorecen o limitan el desarrollo de plagas, enfermedades y arvenses.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Solo sirven para calcular costos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Únicamente permiten medir la producción.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál de los siguientes equipos se utiliza para registrar la ubicación geográfica durante el monitoreo?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'GPS/GNSS.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Conductímetro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Termómetro clínico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Pluviómetro manual.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
+
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Cuál es una función de los equipos de monitoreo?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reemplazar completamente al personal técnico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar las plagas del cultivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Obtener mediciones objetivas y precisas de las variables evaluadas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir el análisis de la información.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+        },
+
+        {
+          id: 13,
+          texto: '¿Qué ventaja ofrece el uso de sistemas GPS/GNSS?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Incrementar automáticamente la producción.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Reducir el ciclo del cultivo.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto: 'Sustituir el monitoreo fitosanitario.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Facilitar la georreferenciación y repetición de los monitoreos en los mismos puntos.',
               esCorrecta: true,
             },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
+
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: 'Antes de utilizar un equipo de monitoreo es recomendable:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Utilizarlo sin revisar su estado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Verificar su funcionamiento y disponibilidad de baterías.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Reiniciarlo continuamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cambiar la configuración durante el monitoreo.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
+
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál es la primera etapa para aplicar una metodología de monitoreo?',
+          imagen: '@/assets/actividad/imagen05.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Definir los objetivos del monitoreo.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Registrar la información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Elaborar mapas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Analizar los resultados.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+        },
+
+        {
+          id: 16,
+          texto:
+            '¿Cuál de los siguientes criterios debe considerarse para seleccionar una metodología de monitoreo?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El color del cultivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El fabricante del equipo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Los objetivos del monitoreo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La marca del fertilizante.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+        },
+
+        {
+          id: 17,
+          texto:
+            '¿Cuál es uno de los beneficios de programar adecuadamente los recursos tecnológicos?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar el consumo de combustible.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Aumentar el número de operarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar interrupciones durante el monitoreo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la superficie del cultivo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+        },
+
+        {
+          id: 18,
+          texto:
+            '¿Qué criterio debe cumplir una tecnología seleccionada para el monitoreo agrícola?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Tener únicamente el menor costo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Ser la más reciente del mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Utilizar exclusivamente conexión a internet.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Garantizar precisión en la medición y adaptarse a las condiciones del cultivo.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+        },
+
+        {
+          id: 19,
+          texto:
+            '¿Qué permite la caracterización de las variables productivas?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Clasificar únicamente las plagas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Obtener información objetiva para evaluar el estado del cultivo y apoyar la toma de decisiones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Calcular únicamente el rendimiento económico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Registrar exclusivamente variables climáticas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+        },
+
+        {
+          id: 20,
+          texto:
+            '¿Cuál es el resultado esperado de una adecuada planeación del monitoreo?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Disminuir la cantidad de información recolectada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Obtener información confiable, representativa y útil para la gestión del cultivo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Realizar menos recorridos de inspección sin criterios técnicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituir completamente el análisis de datos por observaciones visuales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos del componente formativo relacionados con la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre la caracterización de las variables productivas y tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Revise nuevamente el componente formativo e intente de nuevo la actividad didáctica.',
     },
   }),
 }
