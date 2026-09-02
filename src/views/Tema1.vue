@@ -12,7 +12,7 @@
           img(src='@/assets/curso/temas/t1/img01.png', alt='')
         .col-lg-8
           .row.justify-content-center.align-items-center
-            .col-lg-2.mb-3.col-3.col-md-3
+            .col-lg-2.mb-3.col-3.col-md-2
               img(src='@/assets/curso/temas/t1/img02.png', alt='')
             .col-lg-10
               p La producción agrícola enfrenta de manera permanente diversos factores que pueden afectar el crecimiento, desarrollo y rendimiento de los cultivos. Entre estos se encuentran las plagas, las enfermedades y las arvenses, cuya presencia y comportamiento dependen de la interacción entre el cultivo, las condiciones ambientales y las prácticas de manejo implementadas por el productor. Para minimizar los impactos ocasionados por estos organismos y garantizar una producción sostenible, es necesario contar con herramientas que permitan conocer oportunamente el estado fitosanitario del cultivo y apoyar la toma de decisiones técnicas.
@@ -47,44 +47,44 @@
         .row.justify-content-center.align-items-center
           .col-lg-11.col-11
             .row.justify-content-center.align-items-center
-              .col-lg-4.mb-3.col-8
+              .col-lg-4.mb-3.col-8.col-md-6
                 img(src="@/assets/curso/temas/t1/img05.png")
               .col-lg-8
                 p Su finalidad es determinar:
                 SlyderF(columnas="col-lg-6 col-xl-4")
                   .tarjeta.bg01.p-4
                     .row.justify-content-center.mb-3
-                      .col-5.col-lg-7
+                      .col-5.col-lg-7.col-md-3
                         img(src='@/assets/curso/temas/t1/1.png' alt='')
                     p.text-center La presencia o ausencia de organismos de interés.
 
                   .tarjeta.bg01.p-4
                     .row.justify-content-center.mb-3
-                      .col-5.col-lg-7
+                      .col-5.col-lg-8.col-md-3
                         img(src='@/assets/curso/temas/t1/2.png' alt='')
                     p.text-center La distribución dentro del cultivo.
 
                   .tarjeta.bg01.p-4
                     .row.justify-content-center.mb-3
-                      .col-5.col-lg-7
+                      .col-5.col-lg-8.col-md-3
                         img(src='@/assets/curso/temas/t1/3.png' alt='')
                     p.text-center El nivel de infestación o infección.
 
                   .tarjeta.bg01.p-4
                     .row.justify-content-center.mb-3
-                      .col-5.col-lg-7
+                      .col-5.col-lg-8.col-md-3
                         img(src='@/assets/curso/temas/t1/4.png' alt='')
                     p.text-center La evolución de las poblaciones.
 
                   .tarjeta.bg01.p-4
                     .row.justify-content-center.mb-3
-                      .col-5.col-lg-7
+                      .col-5.col-lg-7.col-md-3
                         img(src='@/assets/curso/temas/t1/5.png' alt='')
                     p.text-center El riesgo potencial para la producción.
 
                   .tarjeta.bg01.p-4
                     .row.justify-content-center.mb-3
-                      .col-5.col-lg-7
+                      .col-5.col-lg-8.col-md-3
                         img(src='@/assets/curso/temas/t1/6.png' alt='')
                     p.text-center La necesidad de implementar medidas de manejo.
 
@@ -126,7 +126,7 @@
             li
               i.fas.fa-angle-right2
               | Promover prácticas de producción sostenible. 
-        .col-lg-5.p-0
+        .col-lg-5.p-0.d-none.d-lg-block
           img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t1/img06.png', alt='')
         
 
@@ -221,11 +221,11 @@
       p Para que el monitoreo agrícola proporcione información confiable y útil para el Manejo Integrado de Plagas (MIP), debe cumplir una serie de características que garanticen la calidad de los datos obtenidos y faciliten la toma de decisiones. Un monitoreo bien estructurado no consiste únicamente en realizar observaciones ocasionales, sino en desarrollar un proceso técnico organizado, continuo y sustentado en metodologías estandarizadas. Las principales características de un monitoreo eficiente son las siguientes:
 
       .row.justify-content-center.mb-3.bg06.g-0(data-aos="zoom-in-left")
-        .col-lg-5.p-0
+        .col-lg-5.p-0.d-none.d-lg-block
           img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t1/img07.png', alt='')
         .col-lg-7.p-4
           .row.mb-3
-            .col-lg-2.col-4
+            .col-lg-2.col-4.col-md-3
               img(src='@/assets/curso/temas/t1/img08.png', alt='')
           ul.lista-ul--color.px-3
             li
@@ -294,7 +294,7 @@
             li
               i.fas.fa-angle-right2
               | Favorecer la sostenibilidad del sistema agrícola. 
-        .col-lg-5.p-0
+        .col-lg-5.p-0.d-none.d-lg-block
           img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t1/img11.png', alt='')
         
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -378,7 +378,7 @@
             .row(titulo="Recolección de información")
               .col-md-12.mb-4.mb-md-0
                 p Corresponde a la ejecución del monitoreo en campo. Durante esta fase se realizan observaciones directas sobre el cultivo, se utilizan equipos de medición y se recopilan datos relacionados con las variables previamente definidas. La calidad de la información obtenida depende del cumplimiento de los protocolos establecidos y de la correcta utilización de los equipos de monitoreo.
-        .col-lg-4.col-10
+        .col-lg-4.col-10.col-md-7
           img(src='@/assets/curso/temas/t1/img12.png', alt='')
 
       .row.justify-content-center.mb-2(data-aos="zoom-in-left")
@@ -408,7 +408,7 @@
         h2 1.2. Plagas, enfermedades y arvenses como variables de monitoreo
 
       .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
-        .col-lg-1.mb-3.col-4
+        .col-lg-1.mb-3.col-4.col-md-3
           img(src='@/assets/curso/temas/t1/img14.svg', alt='')
         .col-lg-11
           p El monitoreo agrícola considera las plagas, las enfermedades y las arvenses como variables biológicas fundamentales, debido a que su presencia, abundancia y distribución influyen directamente en el crecimiento, desarrollo y rendimiento del cultivo.
@@ -429,7 +429,7 @@
       p Son organismos, generalmente insectos, ácaros, nematodos, moluscos o vertebrados, que ocasionan daños al cultivo al alimentarse de sus órganos o afectar su desarrollo. 
 
       .row.justify-content-center.align-items-center.mb-3.bg07.g-0(data-aos="zoom-in-left")
-        .col-lg-5.p-0
+        .col-lg-5.p-0.d-none.d-lg-block
           img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t1/img15.png', alt='')
         .col-lg-7.p-4
           p.px-3 Durante el monitoreo se registran aspectos como:
@@ -466,7 +466,7 @@
           p Las enfermedades son alteraciones fisiológicas ocasionadas por hongos, bacterias, virus, fitoplasmas u otros agentes bióticos o abióticos.  
 
           .row.justify-content-center.align-items-center.mb-3.bg08.g-0
-            .col-lg-5.p-0
+            .col-lg-5.p-0.d-none.d-lg-block
               img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t1/img17.svg', alt='')
             .col-lg-7.p-3
               p.px-3 En el monitoreo se evalúan:
@@ -523,7 +523,7 @@
             li
               i.fas.fa-angle-right2
               | Nivel de interferencia con el cultivo. 
-        .col-lg-5.p-0
+        .col-lg-5.p-0.d-none.d-lg-block
           img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t1/img18.png', alt='')
 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
