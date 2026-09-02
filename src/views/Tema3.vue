@@ -7,7 +7,7 @@
         span 3
       h1 Tecnologías y recursos para el monitoreo agrícola
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-12
         img(src='@/assets/curso/temas/t3/img01.png', alt='')
     p El desarrollo tecnológico ha transformado los procesos de monitoreo agrícola, permitiendo obtener información más precisa, confiable y oportuna para la toma de decisiones en los sistemas de producción. La incorporación de equipos de medición, sensores, dispositivos de georreferenciación y herramientas digitales ha fortalecido las actividades de observación, registro y análisis de las variables productivas, contribuyendo a mejorar la eficiencia de los programas de Manejo Integrado de Plagas (MIP).
@@ -27,7 +27,7 @@
     #t_3_1.titulo-segundo.mb-5(data-aos="zoom-in-left")
       h2 3.1. Equipos para monitoreo y medición
 
-    .bloque-texto-g.bloque-texto-g--inverso.bg09.p-3.p-sm-4.p-md-5.mb-3
+    .bloque-texto-g.bloque-texto-g--inverso.bg09.p-3.p-sm-4.p-md-5.mb-3(data-aos="zoom-in-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/img04.png')})`}"
       )
@@ -57,7 +57,7 @@
       h5 Tabla 11.
       span Clasificación de los equipos de monitoreo
 
-    .row.justify-content-center.align-items-center.mb-2
+    .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
       .col-lg-12.mb-3
         .tabla-a.color-primario
           table
@@ -100,55 +100,55 @@
 
     p Los equipos utilizados en monitoreo agrícola deben cumplir ciertas características para garantizar mediciones confiables.
 
-    SlyderF(columnas="col-lg-6 col-xl-4").mb-3
+    SlyderF(columnas="col-lg-6 col-xl-4").mb-3(data-aos="zoom-in-left")
       .tarjeta.bg01.p-4
         .row.justify-content-center.mb-3
           .col-5.col-lg-5.col-md-3
             img(src='@/assets/curso/temas/t3/1.png' alt='')
         h4.text-center Precisión
-        p.text-center Capacidad para generar mediciones cercanas al valor real.
+        p Capacidad para generar mediciones cercanas al valor real.
 
       .tarjeta.bg01.p-4
         .row.justify-content-center.mb-3
           .col-5.col-lg-5.col-md-3
             img(src='@/assets/curso/temas/t3/2.png' alt='')
         h4.text-center Exactitud
-        p.text-center Grado de coincidencia entre la medición obtenida y el valor verdadero.
+        p Grado de coincidencia entre la medición obtenida y el valor verdadero.
 
       .tarjeta.bg01.p-4
         .row.justify-content-center.mb-3
           .col-5.col-lg-5.col-md-3
             img(src='@/assets/curso/temas/t3/3.png' alt='')
         h4.text-center Sensibilidad
-        p.text-center Capacidad para detectar pequeñas variaciones en la variable medida.
+        p Capacidad para detectar pequeñas variaciones en la variable medida.
 
       .tarjeta.bg01.p-4
         .row.justify-content-center.mb-3
           .col-5.col-lg-4.col-md-3
             img(src='@/assets/curso/temas/t3/4.png' alt='')
         h4.text-center Portabilidad
-        p.text-center Facilidad de transporte y utilización en campo.
+        p Facilidad de transporte y utilización en campo.
 
       .tarjeta.bg01.p-4
         .row.justify-content-center.mb-3
           .col-5.col-lg-6.col-md-3
             img(src='@/assets/curso/temas/t3/5.png' alt='')
         h4.text-center Resistencia
-        p.text-center Capacidad para operar en diferentes condiciones ambientales.
+        p Capacidad para operar en diferentes condiciones ambientales.
 
       .tarjeta.bg01.p-4
         .row.justify-content-center.mb-3
           .col-5.col-lg-4.col-md-3
             img(src='@/assets/curso/temas/t3/6.png' alt='')
         h4.text-center Facilidad de uso
-        p.text-center Operación sencilla mediante procedimientos claramente definidos.
+        p Operación sencilla mediante procedimientos claramente definidos.
 
       .tarjeta.bg01.p-4
         .row.justify-content-center.mb-3
           .col-5.col-lg-5.col-md-3
             img(src='@/assets/curso/temas/t3/7.png' alt='')
         h4.text-center Compatibilidad
-        p.text-center Posibilidad de integrar la información con otros dispositivos y programas informáticos.
+        p Posibilidad de integrar la información con otros dispositivos y programas informáticos.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-10
@@ -178,7 +178,7 @@
       h5 Tabla 12.
       span Clasificación de los recursos
 
-    .row.justify-content-center.align-items-center.mb-2
+    .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
       .col-lg-12.mb-3
         .tabla-a.color-primario
           table
@@ -213,7 +213,7 @@
                 td Bolsas, recipientes, baterías, cargadores, memorias USB.
                 td Facilitar el almacenamiento y transporte de materiales e información.
 
-    .tarjeta.fondo02.p-4.p-md-3.p-lg-5.mb-4
+    .tarjeta.fondo02.p-4.p-md-3.p-lg-5.mb-4(data-aos="zoom-in-left")
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-lg-6.mb-4.mb-md-0
@@ -274,7 +274,7 @@
 
     p Los equipos de geoposicionamiento satelital son los dispositivos físicos que utilizan las señales emitidas por los sistemas GPS/GNSS para determinar con precisión la ubicación geográfica de un punto sobre la superficie terrestre. Estos equipos constituyen la herramienta de campo empleada por técnicos y profesionales para capturar coordenadas, registrar recorridos y georreferenciar la información obtenida durante el monitoreo agrícola. A continuación, se presentan algunos dispositivos: 
 
-    TabsC.color-primario
+    TabsC.color-primario(data-aos="zoom-in-left")
       .py-3.py-md-4(titulo="GPS portátil (de mano)")
         .row.justify-content-center
           .col-lg-5.col-9.mb-3
@@ -309,7 +309,7 @@
           .col-lg-6.mb-4.mb-md-0
             p #[b Características:] pantalla de mayor tamaño y capacidad para aplicaciones SIG.
             p #[b Aplicaciones:] captura y visualización de datos georreferenciados en campo.
-    .bloque-texto-g.bloque-texto-g--inverso.bg09.p-3.p-sm-4.p-md-5.mb-3
+    .bloque-texto-g.bloque-texto-g--inverso.bg09.p-3.p-sm-4.p-md-5.mb-3(data-aos="zoom-in-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/IMG13.png')})`}"
       )
