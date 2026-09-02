@@ -13,11 +13,11 @@
     p El desarrollo tecnológico ha transformado los procesos de monitoreo agrícola, permitiendo obtener información más precisa, confiable y oportuna para la toma de decisiones en los sistemas de producción. La incorporación de equipos de medición, sensores, dispositivos de georreferenciación y herramientas digitales ha fortalecido las actividades de observación, registro y análisis de las variables productivas, contribuyendo a mejorar la eficiencia de los programas de Manejo Integrado de Plagas (MIP).
 
     .row.justify-content-center.mb-0(data-aos="zoom-in-left")
-      .col-lg-5.col-10.col-md-9.mb-3
+      .col-lg-5.col-10.col-md-8.mb-3
         img(src='@/assets/curso/temas/t3/img02.png', alt='')
       .col-lg-7.mb-3
         .row.justify-content-center.align-items-center.bg01.p-3.mb-2
-          .col-lg-2.mb-3.col-4.col-md-3
+          .col-lg-2.mb-3.col-4.col-md-2
             img(src='@/assets/curso/temas/t3/img03.png', alt='')
           .col-lg-10
             p Actualmente, el monitoreo agrícola combina la observación directa realizada por el personal técnico con el uso de tecnologías que facilitan la captura, almacenamiento y procesamiento de la información. Estas herramientas permiten registrar datos relacionados con las condiciones climáticas, edáficas y fitosanitarias, así como localizar con precisión los sitios de evaluación mediante sistemas de posicionamiento global y equipos de geoposicionamiento satelital.
@@ -48,7 +48,7 @@
           img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t3/img05.png', alt='')
         .col-lg-7.p-3
           .row.mb-2
-            .col-lg-2.mb-3.col-4.col-md-3
+            .col-lg-2.mb-3.col-4.col-md-2
               img(src='@/assets/curso/temas/t3/img06.png', alt='')
             .col-lg-12
               p.px-2 El uso de equipos especializados en el monitoreo agrícola permite obtener mediciones precisas, objetivas y confiables, reduciendo errores y subjetividad en la captura de información. Además, facilita el seguimiento de las condiciones del cultivo, las variables ambientales y la dinámica de plagas, enfermedades y arvenses, optimizando el tiempo y la cobertura del trabajo de campo. Estos dispositivos también mejoran la calidad y trazabilidad de los registros mediante el almacenamiento de datos, imágenes y coordenadas geográficas, proporcionando información verificable que fortalece la toma de decisiones y la evaluación de las estrategias de Manejo Integrado de Plagas, Enfermedades y Arvenses.
@@ -161,7 +161,7 @@
         img(src="@/assets/curso/temas/t3/img07.png")
       .col-lg-7.p-3
         .row.mb-2
-          .col-lg-2.mb-3.col-4.col-md-3
+          .col-lg-2.mb-3.col-4.col-md-2
             img(src='@/assets/curso/temas/t3/img03.png', alt='')
           .col-lg-12
             p.px-2 Para garantizar mediciones confiables en el monitoreo agrícola, es necesario verificar el estado de los equipos antes, durante y después de cada jornada. Se deben revisar baterías, sensores, componentes y realizar la limpieza y calibración según las indicaciones del fabricante. Además, los equipos deben protegerse durante su transporte y almacenamiento, evitando golpes, humedad y temperaturas extremas. Finalmente, es importante registrar cualquier falla o anomalía para realizar oportunamente el mantenimiento o reparación correspondiente y asegurar la calidad de la información obtenida.
@@ -248,7 +248,7 @@
               img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t3/img11.svg', alt='')
             .col-lg-7.p-3
               p.px-3 Los sistemas de posicionamiento global (GPS/GNSS) son tecnologías de navegación satelital que permiten determinar la ubicación geográfica de un punto sobre la superficie terrestre mediante la recepción de señales emitidas por constelaciones de satélites.
-          p El término GNSS (Global Navigation Satellite System) hace referencia al conjunto de sistemas de navegación satelital disponibles a nivel mundial, mientras que GPS (Global Positioning System) corresponde al sistema desarrollado por los Estados Unidos y constituye uno de los sistemas GNSS más utilizados.
+          p El término GNSS (#[em Global Navigation Satellite System]) hace referencia al conjunto de sistemas de navegación satelital disponibles a nivel mundial, mientras que GPS (#[em Global Positioning System]) corresponde al sistema desarrollado por los Estados Unidos y constituye uno de los sistemas GNSS más utilizados.
     p En el monitoreo agrícola, estos sistemas permiten georreferenciar los puntos de evaluación, registrar recorridos de inspección y elaborar mapas de distribución de variables productivas.
 
     .row.justify-content-center.mb-2(data-aos="zoom-in-left")
@@ -322,7 +322,7 @@
           img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t3/img14.png', alt='')
         .col-lg-7.p-3
           .row.mb-2
-            .col-lg-2.mb-3.col-4.col-md-3
+            .col-lg-2.mb-3.col-4.col-md-2
               img(src='@/assets/curso/temas/t3/img15.png', alt='')
             .col-lg-12
               p.px-2 Durante las actividades de campo, es importante evitar, en la medida de lo posible, obstáculos que puedan interferir con la recepción de la señal, como edificaciones, estructuras metálicas, montañas, árboles de gran altura o vegetación densa. Estos elementos pueden generar interferencias o disminuir la calidad de la señal, afectando la precisión de las coordenadas obtenidas. Por ello, se recomienda realizar las mediciones en espacios abiertos y con buena visibilidad del cielo.
