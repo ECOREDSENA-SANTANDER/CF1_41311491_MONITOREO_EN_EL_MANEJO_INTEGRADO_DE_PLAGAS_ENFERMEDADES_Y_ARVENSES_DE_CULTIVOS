@@ -382,7 +382,7 @@
 
               tr.bg05
                 td #[b Transporte de sustancias]
-                td Movimiento interno de agua, nutrientes y fotosimilados.
+                td Movimiento interno de agua, nutrientes y fotoasimilados.
                 td Permite el funcionamiento coordinado de todos los órganos de la planta.
 
 

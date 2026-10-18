@@ -419,7 +419,7 @@
           figure
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/RaOwSSnJCss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Buenas Prácticas de Manejo de Plagas
+          figcaption Video. Buenas prácticas de manejo de plagas
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-10
@@ -585,7 +585,7 @@
           .tarjeta.clr--pink.p-4.rounded-0.h-100.color-primario
             .tarjeta.bg-white.p-3
               TarjetaAudio.color-acento-botones.mb-0.p-24(
-              texto="pódcast: umbral de acción"
+              texto="Pódcast: umbral de acción"
               :audio="require_src('@/assets/curso/temas/t1/podcast.png')"
           )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

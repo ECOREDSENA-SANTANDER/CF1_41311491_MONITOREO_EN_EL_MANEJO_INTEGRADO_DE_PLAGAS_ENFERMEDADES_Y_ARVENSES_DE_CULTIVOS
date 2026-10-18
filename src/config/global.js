@@ -295,7 +295,7 @@ export default {
     {
       referencia:
         'Unidad de Planificación Rural Agropecuaria (UPRA). (s. f.). Monitoreo de cultivos.',
-      link: '---',
+      link: '',
     },
   ],
   creditos: [
@@ -354,7 +354,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales  ',
           centro: 'Centro Agroturístico - Regional Santander',
         },

@@ -52,6 +52,13 @@
             li.d-flex
               i.fas.fa-angle-right2
               | Optimizar el uso de recursos humanos y tecnológicos. 
+            li.d-flex
+              i.fas.fa-angle-right2
+              | Mejorar la calidad de los registros y de la información generada. 
+            li.d-flex
+              i.fas.fa-angle-right2
+              | Respaldar técnicamente la toma de decisiones. 
+
         .col-lg-5.p-0.d-none.d-lg-block
           img.w-100.h-100.d-block.object-fit-cover(src='@/assets/curso/temas/t4/img05.png', alt='')
 
@@ -210,7 +217,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         img(src='@/assets/curso/temas/t4/img07.png' alt='')
-    p La programación de recursos tecnológicos consiste en organizar y planificar la utilización de los equipos, herramientas, dispositivos, software y demás recursos necesarios para ejecutar las actividades de monitoreo de manera eficiente. Esta programación permite garantizar la disponibilidad de los equipos, optimizar su utilización y asegurar que cada actividad cuente con los recursos requeridos para la captura de información.
+    p La programación de recursos tecnológicos consiste en organizar y planificar la utilización de los equipos, herramientas, dispositivos, #[em software] y demás recursos necesarios para ejecutar las actividades de monitoreo de manera eficiente. Esta programación permite garantizar la disponibilidad de los equipos, optimizar su utilización y asegurar que cada actividad cuente con los recursos requeridos para la captura de información.
 
     .row.justify-content-center.mb-3(data-aos="zoom-in-left")
       .col-lg-8.mb-3
@@ -293,7 +300,7 @@
           table
             thead
               tr
-                th.w-25.izq.bg04 Recurso
+                th.w-25.izq.bg04 Variable
                 th.text-izq.bg04 Tecnología recomendada
             tbody
               tr.bg05
@@ -350,7 +357,7 @@
 
           .row(numero="5" titulo="Mantenimiento y soporte técnico")
             .col-md-12.mb-4.mb-md-0
-              p Se debe verificar la disponibilidad de servicios de mantenimiento, calibración, reparación, actualización de software y sustitución de componentes. Esto contribuye a prolongar la vida útil de los equipos y garantizar la continuidad del monitoreo.
+              p Se debe verificar la disponibilidad de servicios de mantenimiento, calibración, reparación, actualización de #[em software] y sustitución de componentes. Esto contribuye a prolongar la vida útil de los equipos y garantizar la continuidad del monitoreo.
 
           .row(numero="6" titulo="Relación costo-beneficio")
             .col-md-12.mb-4.mb-md-0

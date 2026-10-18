@@ -227,7 +227,7 @@
           .col-lg-6.mb-4.mb-md-0
             h4 Preparación de los recursos
             p Antes de iniciar el monitoreo agrícola es necesario realizar una adecuada preparación de los materiales, herramientas y equipos para evitar interrupciones y reducir errores durante la recolección de información. Para ello, se debe revisar el estado físico y funcionamiento de los equipos, sensores, cables, conectores y demás accesorios, verificando que estén limpios, completos y en buenas condiciones.
-            p También es importante comprobar la carga de las baterías, disponibilidad de cargadores y elementos de respaldo, así como la memoria y configuración de los dispositivos electrónicos, aplicaciones o software utilizados. De igual manera, deben prepararse los formatos físicos o digitales para registrar las variables productivas, climáticas, edáficas y fitosanitarias.
+            p También es importante comprobar la carga de las baterías, disponibilidad de cargadores y elementos de respaldo, así como la memoria y configuración de los dispositivos electrónicos, aplicaciones o #[em software] utilizados. De igual manera, deben prepararse los formatos físicos o digitales para registrar las variables productivas, climáticas, edáficas y fitosanitarias.
           .col-lg-6.col-md-8
             figure
               img(src='@/assets/curso/temas/t3/img09.png', alt='')
