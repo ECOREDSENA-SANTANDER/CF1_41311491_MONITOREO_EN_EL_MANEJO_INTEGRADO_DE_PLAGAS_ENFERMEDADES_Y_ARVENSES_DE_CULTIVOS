@@ -19,7 +19,7 @@
       span  Interacciones entre la atmósfera, el océano, la superficie terrestre y el espacio en el sistema climático
     .row.justify-content-center.align-items-center.mb-2
       .col-lg-8
-        img(src='@/assets/curso/temas/t2/fig1.svg', alt='Representa las interacciones entre el espacio, la atmósfera, el mar y la tierra dentro del sistema climático. Se observa el Sol y la radiación terrestre, junto con procesos atmosféricos como la formación de nubes, precipitación, vientos, gases y partículas volcánicas. En el mar se representan las corrientes, el hielo marino y las interacciones entre el océano y la atmósfera. En la superficie terrestre se muestran montañas, nieve y hielo, escorrentía, agua subterránea, vegetación y actividades humanas, destacando las interacciones entre el aire, la superficie terrestre y el mar.')
+        img(src='@/assets/curso/temas/t2/fig1.svg', alt='Representa las interacciones entre el Sol, la atmósfera, el océano y la superficie terrestre, incluyendo la radiación, las nubes, las precipitaciones, los vientos, las corrientes marinas, el hielo, el agua, la vegetación y las actividades humanas dentro del sistema climático.')
         
       separador(data-aos="zoom-in-left")
       #t_2_1.titulo-segundo.mb-5(data-aos="zoom-in-left")

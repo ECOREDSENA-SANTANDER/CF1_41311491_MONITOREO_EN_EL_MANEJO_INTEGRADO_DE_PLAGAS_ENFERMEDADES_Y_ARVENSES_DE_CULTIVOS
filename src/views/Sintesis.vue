@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="La caracterización de las variables productivas y las tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses se organiza en cuatro ejes: fundamentos del monitoreo agrícola, que aborda conceptos, variables sanitarias, umbrales de daño y toma de decisiones; variables ambientales y productivas, relacionadas con el clima, suelo, fenología, fisiología y sanidad del cultivo; tecnologías y recursos para el monitoreo, que comprende equipos de medición, herramientas, insumos y sistemas GPS/GNSS; y planeación del monitoreo, enfocada en metodologías, programación de recursos, selección de tecnologías y criterios técnicos para caracterizar las variables productivas.")
+          img(src="@/assets/curso/sintesis.svg", alt="La caracterización de las variables productivas y las tecnologías para el monitoreo del manejo integrado de plagas, enfermedades y arvenses comprende cuatro ejes: fundamentos del monitoreo agrícola, variables ambientales y productivas, tecnologías y recursos de medición, y planeación del monitoreo, orientados a identificar condiciones del cultivo, seleccionar herramientas y establecer criterios técnicos para la toma de decisiones.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
