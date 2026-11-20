@@ -30,8 +30,9 @@
           .col-lg-2.mb-3.col-4.col-md-2
             img(src='@/assets/curso/temas/t4/img04.png', alt='')
           .col-lg-10
-            p Actualmente, el monitoreo agrícola combina la observación directa realizada por el personal técnico con el uso de tecnologías que facilitan la captura, almacenamiento y procesamiento de la información. Estas herramientas permiten registrar datos relacionados con las condiciones climáticas, edáficas y fitosanitarias, así como localizar con precisión los sitios de evaluación mediante sistemas de posicionamiento global y equipos de geoposicionamiento satelital.
+            p Las metodologías de monitoreo corresponden al conjunto de procedimientos técnicos utilizados para planificar, ejecutar y documentar la recolección de información sobre las variables productivas del cultivo. Estas metodologías establecen la forma en que se realizarán las observaciones, mediciones y registros, garantizando que la información obtenida sea representativa, objetiva y comparable durante todo el proceso de monitoreo.
           p La selección de una metodología depende de factores como el objetivo del monitoreo, el tipo de cultivo, la extensión del área, las variables que serán evaluadas y los recursos tecnológicos disponibles.
+
 
     .row.justify-content-center.align-items-center.mb-3.bg03.g-0(data-aos="zoom-in-left")
         .col-lg-7.p-4
@@ -277,7 +278,7 @@
                 td Aplicaciones instaladas, memoria disponible y conectividad.
 
               tr
-                td #[b Software especializado]
+                td #[b #[em Software] especializado]
                 td Licencias, configuración y compatibilidad.
 
               tr.bg05

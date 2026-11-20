@@ -39,10 +39,28 @@
 
       p En el contexto del Manejo Integrado de Plagas (MIP), el monitoreo corresponde al seguimiento periódico de las poblaciones de plagas, enfermedades y arvenses, así como de las condiciones ambientales y del cultivo que pueden favorecer su desarrollo.
 
-      .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
-        .col-lg-12
-          img(src="@/assets/curso/temas/t1/img04.svg")
+      ImagenInfografica.color-acento-botones.mb-3
+        template(v-slot:imagen)
+          figure
+            img(src="@/assets/curso/temas/t1/img04.svg")
+        .tarjeta.bg10.p-3(x="53%" y="10%" numero="+")
+          p.mb-0 Conocimiento de la plaga
 
+        .tarjeta.bg10.p-3(x="63%" y="25%" numero="+")
+          p.mb-0 Umbral de la plaga
+
+        .tarjeta.bg10.p-3(x="61%" y="76%" numero="+")
+          p.mb-0 Monitoreo
+        .tarjeta.bg10.p-3(x="50%" y="95%" numero="+")
+          p.mb-0 Prevención
+        .tarjeta.bg10.p-3(x="37%" y="68%" numero="+")
+          p.mb-0 Técnicas de control integrado
+        .tarjeta.bg10.p-3(x="37%" y="27%" numero="+")
+          p.mb-0 Identificación de la plaga
+      
+      
+      
+      
       .fondo01.mb-4.p-2(data-aos="zoom-in-left")
         .row.justify-content-center.align-items-center
           .col-lg-11.col-11
@@ -567,7 +585,7 @@
               img(src='@/assets/curso/temas/t1/01.png' alt='')
             .tarjeta-danio__info
               h4 Nivel de daño
-              p El grado de afectación ocasionado por una plaga, enfermedad o arvenses sobre el cultivo, expresado mediante indicadores como incidencia, severidad, porcentaje de infestación o cobertura.
+              p Es el grado de afectación ocasionado por una plaga, enfermedad o arvense sobre el cultivo, expresado mediante indicadores como incidencia, severidad, porcentaje de infestación o cobertura.
 
         .col-lg-6.mb-4.col-md-8
           .tarjeta-danio
